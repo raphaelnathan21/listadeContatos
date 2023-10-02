@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="displayContato">
+
+        <div class="icone">
+
+            <img src="img/add.png" width="75px" height="auto">
+
+        </div>
+
+        <div class="dados">
+
+
+            <!-- tag label: rótulo do input-->
+
+            <!-- tag input: entrada de dados-->
+
+            <div class="containernome">
+
+
+                <div class="img">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="txt">
+                    <input type="text" id="idNome" placeholder="Nome" required="required" name="nome" />
+                </div>
+
+
+            </div>
+
+            <div class="containersobrenome">
+
+                <div class="txt">
+
+                    <input type="text" id="idSobrenome" placeholder="Sobrenome" name="sobrenome" />
+                </div>
+            </div>
+
+            <div class="containertelefone">
+
+
+                <div class="telefone">
+                    
+                    <div class="img">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div class="txt">
+                        <input type="tel" id="idFone" placeholder="Telefone" name="telefone" />
+                    </div>
+                </div>
+
+                <div class="comboBox">
+                    <select name="Marcador">
+                        <option value="nenhum">Nenhum marcador</option>
+                        <option value="celular">Celular</option>
+                        <option value="trabalho">Trabalho</option>
+                        <option value="casa">Casa</option>
+                        <option value="principal">Principal</option>
+                        <option value="faxtrabalho">Fax trabalho</option>
+                        <option value="faxcasa">Fax casa</option>
+                        <option value="pager">Pager</option>
+                        <option value="outros">Outros</option>
+                        <option value="personalizado">Personalizado</option>
+                    </select>
+
+                </div>
+            </div>
+
+
+            <div class="containeremail">
+
+
+                <div class="email">
+                    <div class="img">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div class="txt">
+                        <input type="email" id="idEmail" placeholder="E-mail" name="email" />
+                    </div>
+                </div>
+
+                <div class="comboBox">
+                    <select name="Marcador">
+                        <option value="nenhum">Nenhum marcador</option>
+                        <option value="casa">Casa</option>
+                        <option value="trabalho">Trabalho</option>
+                        <option value="outros">Outros</option>
+                        <option value="personalizado">Personalizado</option>
+                    </select>
+
+                </div>
+            </div>
+
+        </div>
+        <script src="https://kit.fontawesome.com/8b00b1c8d0.js" crossorigin="anonymous"></script>
+    </div>
+
+
+</body>
+
+</html>

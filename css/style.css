@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.containernome, .telefone, .email  {
+    display: flex;
+    padding: 7px;
+    margin: auto;
+    align-items: center;
+    border-radius: 50px;
+
+
+
+}
+
+.containersobrenome {
+    margin-left: 30px;
+
+}
+
+.comboBox select {
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.containernome input {
+    padding: 10px;
+    flex: 8;
+    
+    
+}
+
+.containersobrenome input {
+    padding: 10px;
+}
+
+.containertelefone input {
+    padding: 10px;
+}
+
+.containeremail input {
+    padding: 10px;
+}
+
+.img {
+   margin-right: 8px;
+
+}
+
+
+
+
+
+
+
